@@ -73,3 +73,131 @@ body {
   background-repeat: repeat;
  }
 }
+
+/******** SLIDESHOW ********/
+
+.slideshow-container {
+  max-width: 100%;
+  position: relative;
+  margin-top: 65px;
+}
+
+.mySlides {
+  display: none;
+  position: relative;
+  /* text-align: center;
+  color: white;
+  font-weight:800;
+  font-size: 2rem; 
+  text-shadow: 1px 1px 2px black;  */
+}
+.mySlides img {
+  max-height: 770px;
+  object-fit: cover;
+}
+
+/* .bottom-left {
+  position: absolute;
+bottom: 10%;
+left: 10%;
+/* transform: translate(-50%, -50%); 
+ } */ 
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: #494449;
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #857f74;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #494449;
+  cursor: pointer;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: 0.4}
+  to {opacity: 0}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+/******** FOOTER ********/
+footer {
+  background-color: #494449;
+  color: #F2F4F3;
+  padding: 40px 0;
+  margin-top: 40px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+.footer-left h3,
+.footer-right h3 {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+
+.footer-left p {
+  color: #F2F4F3;
+}
+
+
+.social-links a {
+  display: inline-block;
+  margin-right: 10px;
+  font-size: 24px;
+  color: #F2F4F3;
+}
+
+.copyright {
+  font-size: 14px;
+  text-align: center;
+  margin-top: 20px;
+  color: #F2F4F3;
+}
