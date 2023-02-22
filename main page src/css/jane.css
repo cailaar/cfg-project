@@ -1,4 +1,49 @@
+/* Navbar css starts */
 
+* {
+    margin: 0;
+      padding: 0;
+  }
+  
+  ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: rgba(0, 0, 0, 0.21);
+      position: fixed;
+      top: 0;
+      width: 100%;
+    }
+  
+  
+    li {
+      display: inline;
+      float: left;
+      font-size: 1.5rem;
+      
+    }
+  
+    
+    li a {
+      display: block;
+      color: rgb(255, 255, 255);
+      text-align: center;
+      padding: 14px 14px;
+      text-decoration: none;
+      font-family: cursive;
+    }
+  
+  
+    li a:hover {
+      background-color: rgba(0, 69, 143, 0.749);
+    }
+  
+  .activeNav {
+    background-color: rgba(0, 69, 143, 0.749);
+  }
+  
+  /* Navbar CSS ends */
 
 body { background-color: blueviolet; font-family: fantasy; font-size: xx-large; text-align: center;}
 
