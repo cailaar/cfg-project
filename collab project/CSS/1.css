@@ -154,6 +154,26 @@ main .content-img-container{
   margin: 0 0.5rem;
   color:rgb(80, 5, 48)
   
- 
+}
+
+@media (max-width: 480px) {
+  body {
+     
+  background-attachment: scroll;
+  background-repeat: repeat;
+  }
   
+}
+@media (min-width: 481px) and (max-width: 1024px) {
+  body {
+      
+  background-attachment: scroll;
+  background-repeat: repeat;
+  }
+}@media (min-width: 1025px) {
+  body {
+   
+  background-attachment: scroll;
+  background-repeat: repeat;
+ }
 }
