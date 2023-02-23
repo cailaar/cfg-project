@@ -1,47 +1,22 @@
 /* Navbar css starts */
 
-* {
-    margin: 0;
-      padding: 0;
-  }
-  
-  ul {
-      list-style-type: none;
-      margin: 0;
-      padding: 0;
-      overflow: hidden;
-      background-color: rgba(0, 0, 0, 0.21);
-      position: fixed;
-      top: 0;
-      width: 100%;
-    }
-  
-  
-    li {
-      display: inline;
-      float: left;
-      font-size: 1.5rem;
-      
-    }
-  
-    
-    li a {
-      display: block;
-      color: rgb(255, 255, 255);
-      text-align: center;
-      padding: 14px 14px;
-      text-decoration: none;
-      font-family: cursive;
-    }
-  
-  
-    li a:hover {
-      background-color: rgba(0, 69, 143, 0.749);
-    }
-  
-  .activeNav {
-    background-color: rgba(0, 69, 143, 0.749);
-  }
+.dropdown-content {
+  background-color: #05366c;
+  color: #F2F4F3;
+  display: none;
+  left: 0;
+  position: absolute;
+  top: 100%;
+  z-index: 1;
+  border-right: none !important;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+a.dropdown-arrow:after {
+  content: " ▼";
+  font-size: 0.2em;
+} 
   
   /* Navbar CSS ends */
 
