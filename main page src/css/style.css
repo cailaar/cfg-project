@@ -300,6 +300,9 @@ h2 {
   margin-bottom: 150px;
 }
 
+.take-me-there a {
+text-decoration: none;
+}
 /******** FOOTER ********/
 
 footer {
