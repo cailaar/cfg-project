@@ -22,11 +22,11 @@ p{
   font-size: 1.2rem;
 }
 
-header{
+/* header{
   width: 100%;
-  height: 5rem;
-  background-color: rgb(241, 212, 225);
-}
+  height: 5rem; */
+  /* background-color: rgb(241, 212, 225); */
+/* } */
 
 /* Navbar css starts */
 * {
@@ -65,16 +65,13 @@ ul {
   background-color: rgba(0, 69, 143, 0.749);
 }
 /* Navbar CSS ends */
+
+
 body {
-    background-color: #05366c;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: scroll;
+  background-color: #EFE6DD;
 }
 
 
-  
-}
 
 .container{
   width: 96%;
@@ -128,13 +125,13 @@ main .profile-container .profile{
   justify-content: center;
   align-items: center;
 }
-
+/* 
 main .profile-container .profile .img-container{
 
-}
+} */
 
 main p{
-  color: rgba(161, 3, 98, 0.963);
+  color: rgba(58, 86, 49, 0.963);
   margin: 1rem;
   text-align: left;
 }
@@ -187,7 +184,7 @@ main .content-img-container{
   background-attachment: scroll;
   background-repeat: repeat;
  }
-  
+}
   /******** FOOTER ********/
 footer {
   background-color: #494449;
