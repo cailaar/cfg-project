@@ -12,19 +12,19 @@
     <title>Budapest</title>
 
 
-    <!--Navbar HTML starts, link text & colours etc to be changed?
-    ask team for their thoughts on colour/text/background etc
-    
-    also, class="active" needs to be added to each page's code
-    so that it shows on the navbar as the current page (current page link
-    text has a different background colour)-->
-    
-    <ul>
-        <li><a class="activeNav" href="index.html">Home</a></li>
-        <li><a href="emily.html">Krakow</a></li>
-        <li><a href="jane.html">Budapest</a></li>
-       
-    </ul>
+    <!--Navbar HTML starts
+<nav class="responsive">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li class="dropdown">
+          <a href="visit.html" class="dropdown-arrow">Visit</a>
+          <ul class="dropdown-content">
+            <li><a href="jane.html">Budapest</a></li>
+            <li><a href="emily.html">Krakow</a></li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
     <!--Navbar HTML ends-->
 </head>
 <body>
